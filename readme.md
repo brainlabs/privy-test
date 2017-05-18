@@ -1,4 +1,4 @@
-#Instalasi
+# Instalasi
 ```
 - composer install
 - edit file .env 
