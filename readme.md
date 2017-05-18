@@ -10,7 +10,7 @@
 1. http://hostname/
 2. http://hostname/parse (file sqlnya privy.sql)
 3. HTTP METHOD GET  url : http://hostname/api/branch-search?keyword={keyword yang diinginkan}
-4. Repository ur :l https://github.com/brainlabs/privy-test
+4. Repository url: https://github.com/brainlabs/privy-test
 5. Soal_No_5_(Microservice).pdf
 
 
