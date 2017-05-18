@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Http\Request;
+
 /**
  * Class HomeController
  * @package App\Http\Controllers
@@ -14,6 +16,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-       return convertNumberAbbreviator('100000000,18');
+       return view('abbreviator');
+    }
+
+
+    public function test(Request $request)
+    {
+
+        $number = convertNumberAbbreviator($request->input('number'));
+
+        return view('abbreviator', compact('number'));
     }
 }
