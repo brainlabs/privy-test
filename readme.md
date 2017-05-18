@@ -2,7 +2,7 @@
 ```
 - composer install
 - edit file .env 
-  set nama data base ser username dan password
+  set nama database serta username dan password
   kemudian jalankan url http://hostname/parse  agar tabel dibuat  dan data di insert  dari hasil parse file CabangKonvent.txt
 ```
 # Soal No
